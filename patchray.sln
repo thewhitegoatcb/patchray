@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua_more_mem", "lua_more_mem\lua_more_mem.vcxproj", "{F2CD8191-52E4-4EA8-B080-8C495C7889A6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hash_dump", "hash_dump\hash_dump.vcxproj", "{56527673-A3F4-4D99-A472-CE039B718C1C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "common\common.vcxitems", "{8E4EA5D7-4FAB-4098-96B1-ACB06038FA89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2CD8191-52E4-4EA8-B080-8C495C7889A6}.Debug|x64.ActiveCfg = Debug|x64
+		{F2CD8191-52E4-4EA8-B080-8C495C7889A6}.Debug|x64.Build.0 = Debug|x64
+		{F2CD8191-52E4-4EA8-B080-8C495C7889A6}.Release|x64.ActiveCfg = Release|x64
+		{F2CD8191-52E4-4EA8-B080-8C495C7889A6}.Release|x64.Build.0 = Release|x64
+		{56527673-A3F4-4D99-A472-CE039B718C1C}.Debug|x64.ActiveCfg = Debug|x64
+		{56527673-A3F4-4D99-A472-CE039B718C1C}.Debug|x64.Build.0 = Debug|x64
+		{56527673-A3F4-4D99-A472-CE039B718C1C}.Release|x64.ActiveCfg = Release|x64
+		{56527673-A3F4-4D99-A472-CE039B718C1C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0321E17-1598-4A20-8DB0-B38953FE4ACF}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		common\common.vcxitems*{56527673-a3f4-4d99-a472-ce039b718c1c}*SharedItemsImports = 4
+		common\common.vcxitems*{8e4ea5d7-4fab-4098-96b1-acb06038fa89}*SharedItemsImports = 9
+		common\common.vcxitems*{f2cd8191-52e4-4ea8-b080-8c495c7889a6}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
