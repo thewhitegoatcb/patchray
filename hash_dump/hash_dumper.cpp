@@ -90,7 +90,7 @@ bool patchray::hash_dumper::init() noexcept {
 	load_dictionary(save_path);
 	m_dict_last_save_size = m_murmur64_dict.size();
 	
-	mem::pattern murmur64("48 89 5C 24 08 4C 63 DA 4C");
+	mem::pattern murmur64(murmur64_pattern);
 	auto murmur64_loc = util::scan_main_module(murmur64);
 	if (!murmur64_loc)
 		return false;
