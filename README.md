@@ -11,3 +11,4 @@ Saves every murmur64 hashing usuage into `dict.txt`
 # Notes
 - **The game will refuse to load with ASI Loader installed when EAC enabled (Official realm), you will have to remove or rename the `dinput8.dll` to something else temporarly**
 - `hash_dump` will only be able to dump only when murmur64 hashing is used in runtime, some resources pre-compute the hash and store it to reference other resources, in this case there's no way to capture the original hash string in runtime
+- `hash_dump` might dump sensetive information **BEWARE!** before sharing your `dict.txt`.
